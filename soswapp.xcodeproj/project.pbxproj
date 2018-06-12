@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656AF58C1C2188AE00FBCB0F /* 600.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF58B1C2188AE00FBCB0F /* 600.png */; };
+		656AF5981C2189B800FBCB0F /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF58D1C2189B800FBCB0F /* Icon-40.png */; };
+		656AF5991C2189B800FBCB0F /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF58E1C2189B800FBCB0F /* Icon-40@2x.png */; };
+		656AF59A1C2189B800FBCB0F /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF58F1C2189B800FBCB0F /* Icon-40@3x.png */; };
+		656AF59B1C2189B800FBCB0F /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5901C2189B800FBCB0F /* Icon-60@2x.png */; };
+		656AF59C1C2189B800FBCB0F /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5911C2189B800FBCB0F /* Icon-60@3x.png */; };
+		656AF59D1C2189B800FBCB0F /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5921C2189B800FBCB0F /* Icon-76.png */; };
+		656AF59E1C2189B800FBCB0F /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5931C2189B800FBCB0F /* Icon-76@2x.png */; };
+		656AF59F1C2189B800FBCB0F /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5941C2189B800FBCB0F /* Icon-83.5@2x.png */; };
+		656AF5A01C2189B800FBCB0F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5951C2189B800FBCB0F /* Icon-Small.png */; };
+		656AF5A11C2189B800FBCB0F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5961C2189B800FBCB0F /* Icon-Small@2x.png */; };
+		656AF5A21C2189B800FBCB0F /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 656AF5971C2189B800FBCB0F /* Icon-Small@3x.png */; };
+		65869F461C612BA9003ABE74 /* InformacionesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65869F451C612BA9003ABE74 /* InformacionesController.swift */; };
+		65869F481C6136EC003ABE74 /* AmbulanciasCercanasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65869F471C6136EC003ABE74 /* AmbulanciasCercanasController.swift */; };
+		65869F4C1C613ABB003ABE74 /* 00-informaciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 65869F4B1C613ABB003ABE74 /* 00-informaciones.png */; };
+		65869F4E1C613C33003ABE74 /* 01-transantiago.png in Resources */ = {isa = PBXBuildFile; fileRef = 65869F4D1C613C33003ABE74 /* 01-transantiago.png */; };
+		658993381C47C71C008E796C /* 00-apoyo-personal.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993131C47C71C008E796C /* 00-apoyo-personal.png */; };
+		658993391C47C71C008E796C /* 00-denuncias-ciudadanas.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993141C47C71C008E796C /* 00-denuncias-ciudadanas.png */; };
+		6589933A1C47C71C008E796C /* 00-emergencias-domesticas.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993151C47C71C008E796C /* 00-emergencias-domesticas.png */; };
+		6589933B1C47C71C008E796C /* 00-emergencias-especialespng.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993161C47C71C008E796C /* 00-emergencias-especialespng.png */; };
+		6589933C1C47C71C008E796C /* 00-emergencias-salud.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993171C47C71C008E796C /* 00-emergencias-salud.png */; };
+		6589933D1C47C71C008E796C /* 00-emergencias-sos.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993181C47C71C008E796C /* 00-emergencias-sos.png */; };
+		6589933E1C47C71C008E796C /* 00-otras-emergencias.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993191C47C71C008E796C /* 00-otras-emergencias.png */; };
+		6589933F1C47C71C008E796C /* 00-servicios-cercanos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589931A1C47C71C008E796C /* 00-servicios-cercanos.png */; };
+		658993401C47C71C008E796C /* 01-ambulancias.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589931B1C47C71C008E796C /* 01-ambulancias.png */; };
+		658993411C47C71C008E796C /* 01-bomberos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589931C1C47C71C008E796C /* 01-bomberos.png */; };
+		658993421C47C71C008E796C /* 01-carabineros.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589931D1C47C71C008E796C /* 01-carabineros.png */; };
+		658993431C47C71C008E796C /* 01-drogas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589931E1C47C71C008E796C /* 01-drogas.png */; };
+		658993441C47C71C008E796C /* 01-farmacias.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589931F1C47C71C008E796C /* 01-farmacias.png */; };
+		658993451C47C71C008E796C /* 01-pdi.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993201C47C71C008E796C /* 01-pdi.png */; };
+		658993461C47C71C008E796C /* 02-aereo.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993211C47C71C008E796C /* 02-aereo.png */; };
+		658993471C47C71C008E796C /* 02-andino.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993221C47C71C008E796C /* 02-andino.png */; };
+		658993481C47C71C008E796C /* 02-forestal.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993231C47C71C008E796C /* 02-forestal.png */; };
+		658993491C47C71C008E796C /* 02-maritimo.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993241C47C71C008E796C /* 02-maritimo.png */; };
+		6589934A1C47C71C008E796C /* 03-abuso-sexual.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993251C47C71C008E796C /* 03-abuso-sexual.png */; };
+		6589934B1C47C71C008E796C /* 03-atencion-familia.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993261C47C71C008E796C /* 03-atencion-familia.png */; };
+		6589934C1C47C71C008E796C /* 03-denuncia-segura.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993271C47C71C008E796C /* 03-denuncia-segura.png */; };
+		6589934D1C47C71C008E796C /* 03-entrega-armas.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993281C47C71C008E796C /* 03-entrega-armas.png */; };
+		6589934E1C47C71C008E796C /* 03-fono-accion.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993291C47C71C008E796C /* 03-fono-accion.png */; };
+		6589934F1C47C71C008E796C /* 03-proteccion-animal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589932A1C47C71C008E796C /* 03-proteccion-animal.png */; };
+		658993501C47C71C008E796C /* 03-sernac.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589932B1C47C71C008E796C /* 03-sernac.png */; };
+		658993511C47C71C008E796C /* 05-cruz-roja.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589932C1C47C71C008E796C /* 05-cruz-roja.png */; };
+		658993521C47C71C008E796C /* 05-emergencia-chilectra.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589932D1C47C71C008E796C /* 05-emergencia-chilectra.png */; };
+		658993531C47C71C008E796C /* 05-emergencia-lipigas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589932E1C47C71C008E796C /* 05-emergencia-lipigas.png */; };
+		658993541C47C71C008E796C /* 05-emergencia-metrogas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589932F1C47C71C008E796C /* 05-emergencia-metrogas.png */; };
+		658993551C47C71C008E796C /* 05-emergencia-toxicologica.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993301C47C71C008E796C /* 05-emergencia-toxicologica.png */; };
+		658993561C47C71C008E796C /* 05-quemaduras.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993311C47C71C008E796C /* 05-quemaduras.png */; };
+		658993571C47C71C008E796C /* 05-sos-escucha.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993321C47C71C008E796C /* 05-sos-escucha.png */; };
+		658993581C47C71C008E796C /* 07-alcoholicos-anonimos.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993331C47C71C008E796C /* 07-alcoholicos-anonimos.png */; };
+		658993591C47C71C008E796C /* 07-fono-drogas.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993341C47C71C008E796C /* 07-fono-drogas.png */; };
+		6589935A1C47C71C008E796C /* 07-info-drogas.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993351C47C71C008E796C /* 07-info-drogas.png */; };
+		6589935B1C47C71C008E796C /* 07-informacion-policial.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993361C47C71C008E796C /* 07-informacion-policial.png */; };
+		6589935E1C47D157008E796C /* EmergenciasEspecialesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589935D1C47D157008E796C /* EmergenciasEspecialesController.swift */; };
+		658993601C47D163008E796C /* EmergenciasDomesticasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589935F1C47D163008E796C /* EmergenciasDomesticasController.swift */; };
+		658993621C47D72B008E796C /* DenunciasCiudadanasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993611C47D72B008E796C /* DenunciasCiudadanasController.swift */; };
+		658993641C47D737008E796C /* ApoyoPersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993631C47D737008E796C /* ApoyoPersonalController.swift */; };
+		658993661C47DB54008E796C /* 07-sida.png in Resources */ = {isa = PBXBuildFile; fileRef = 658993651C47DB54008E796C /* 07-sida.png */; };
+		658993681C47DC33008E796C /* CercanosBomberosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993671C47DC33008E796C /* CercanosBomberosController.swift */; };
+		6589936A1C47DC3E008E796C /* CercanosSaludController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993691C47DC3E008E796C /* CercanosSaludController.swift */; };
+		6589936C1C47DC48008E796C /* CercanosFarmaciasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589936B1C47DC48008E796C /* CercanosFarmaciasController.swift */; };
+		6589936E1C47E682008E796C /* fondo-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6589936D1C47E682008E796C /* fondo-iphone.png */; };
+		65A6CC751C20E8E200CFEEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CC741C20E8E200CFEEDF /* AppDelegate.swift */; };
+		65A6CC771C20E8E200CFEEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CC761C20E8E200CFEEDF /* ViewController.swift */; };
+		65A6CC7A1C20E8E200CFEEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A6CC781C20E8E200CFEEDF /* Main.storyboard */; };
+		65A6CC7C1C20E8E200CFEEDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A6CC7B1C20E8E200CFEEDF /* Images.xcassets */; };
+		65A6CC7F1C20E8E200CFEEDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A6CC7D1C20E8E200CFEEDF /* LaunchScreen.xib */; };
+		65A6CC8B1C20E8E200CFEEDF /* SOSWAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CC8A1C20E8E200CFEEDF /* SOSWAppTests.swift */; };
+		65A6CC951C20EA9A00CFEEDF /* launchscreen-iphone-4s.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A6CC941C20EA9A00CFEEDF /* launchscreen-iphone-4s.png */; };
+		65A6CC971C20EBE100CFEEDF /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CC961C20EBE100CFEEDF /* InicioController.swift */; };
+		65A6CC991C20EC0500CFEEDF /* TelefonoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CC981C20EC0500CFEEDF /* TelefonoController.swift */; };
+		65A6CC9B1C20EC1700CFEEDF /* MapaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CC9A1C20EC1700CFEEDF /* MapaController.swift */; };
+		65A6CCAB1C20F4F300CFEEDF /* EmergenciasSosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CCAA1C20F4F300CFEEDF /* EmergenciasSosController.swift */; };
+		65A6CCBD1C20FF5B00CFEEDF /* ComisariaTelefono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CCBC1C20FF5B00CFEEDF /* ComisariaTelefono.swift */; };
+		65A6CCBF1C2102E200CFEEDF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A6CCBE1C2102E200CFEEDF /* MapKit.framework */; };
+		65A6CCC11C21039300CFEEDF /* CustomAnnot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A6CCC01C21039300CFEEDF /* CustomAnnot.swift */; };
+		65B356A91C52BA4400904709 /* 02-metro.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B356A71C52BA4400904709 /* 02-metro.png */; };
+		65B356AA1C52BA4400904709 /* 02-bip.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B356A81C52BA4400904709 /* 02-bip.png */; };
+		65B356AC1C52C17100904709 /* CercanosFarmaciaTurno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B356AB1C52C17100904709 /* CercanosFarmaciaTurno.swift */; };
+		65B356AE1C52E94F00904709 /* btn-inicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B356AD1C52E94F00904709 /* btn-inicio.png */; };
+		65B568DC1CAD5FDB00DEB01C /* pinambu.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B568D71CAD5FDB00DEB01C /* pinambu.png */; };
+		65B568DD1CAD5FDB00DEB01C /* pinbomber.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B568D81CAD5FDB00DEB01C /* pinbomber.png */; };
+		65B568DE1CAD5FDB00DEB01C /* pincarab.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B568D91CAD5FDB00DEB01C /* pincarab.png */; };
+		65B568DF1CAD5FDB00DEB01C /* pinfarma.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B568DA1CAD5FDB00DEB01C /* pinfarma.png */; };
+		65B568E01CAD5FDB00DEB01C /* pinhospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B568DB1CAD5FDB00DEB01C /* pinhospital.png */; };
+		65BEF7061C56A8F000ECBC65 /* PlanCuadranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BEF7051C56A8F000ECBC65 /* PlanCuadranteController.swift */; };
+		65BEF70F1C56B21900ECBC65 /* plan-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BEF7091C56B21900ECBC65 /* plan-pin.png */; };
+		65D362A21C57F91C004DA9CF /* SOSWApp-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D362A11C57F91C004DA9CF /* SOSWApp-2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65A6CC851C20E8E200CFEEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A6CC671C20E8E100CFEEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A6CC6E1C20E8E100CFEEDF;
+			remoteInfo = SOSWApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		656AF58B1C2188AE00FBCB0F /* 600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 600.png; path = ../../../Downloads/600.png; sourceTree = "<group>"; };
+		656AF58D1C2189B800FBCB0F /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-40.png"; sourceTree = "<group>"; };
+		656AF58E1C2189B800FBCB0F /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@2x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-40@2x.png"; sourceTree = "<group>"; };
+		656AF58F1C2189B800FBCB0F /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-40@3x.png"; sourceTree = "<group>"; };
+		656AF5901C2189B800FBCB0F /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-60@2x.png"; sourceTree = "<group>"; };
+		656AF5911C2189B800FBCB0F /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-60@3x.png"; sourceTree = "<group>"; };
+		656AF5921C2189B800FBCB0F /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-76.png"; sourceTree = "<group>"; };
+		656AF5931C2189B800FBCB0F /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-76@2x.png"; sourceTree = "<group>"; };
+		656AF5941C2189B800FBCB0F /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-83.5@2x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		656AF5951C2189B800FBCB0F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-Small.png"; sourceTree = "<group>"; };
+		656AF5961C2189B800FBCB0F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		656AF5971C2189B800FBCB0F /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@3x.png"; path = "../../../Downloads/600/ios/AppIcon.appiconset/Icon-Small@3x.png"; sourceTree = "<group>"; };
+		65869F451C612BA9003ABE74 /* InformacionesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionesController.swift; sourceTree = "<group>"; };
+		65869F471C6136EC003ABE74 /* AmbulanciasCercanasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbulanciasCercanasController.swift; sourceTree = "<group>"; };
+		65869F4B1C613ABB003ABE74 /* 00-informaciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-informaciones.png"; path = "../../../Desktop/botonessoswapp/00-informaciones.png"; sourceTree = "<group>"; };
+		65869F4D1C613C33003ABE74 /* 01-transantiago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-transantiago.png"; path = "../../../Desktop/botonessoswapp/01-transantiago.png"; sourceTree = "<group>"; };
+		658993131C47C71C008E796C /* 00-apoyo-personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-apoyo-personal.png"; path = "../../../Desktop/botonessoswapp/00-apoyo-personal.png"; sourceTree = "<group>"; };
+		658993141C47C71C008E796C /* 00-denuncias-ciudadanas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-denuncias-ciudadanas.png"; path = "../../../Desktop/botonessoswapp/00-denuncias-ciudadanas.png"; sourceTree = "<group>"; };
+		658993151C47C71C008E796C /* 00-emergencias-domesticas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-emergencias-domesticas.png"; path = "../../../Desktop/botonessoswapp/00-emergencias-domesticas.png"; sourceTree = "<group>"; };
+		658993161C47C71C008E796C /* 00-emergencias-especialespng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-emergencias-especialespng.png"; path = "../../../Desktop/botonessoswapp/00-emergencias-especialespng.png"; sourceTree = "<group>"; };
+		658993171C47C71C008E796C /* 00-emergencias-salud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-emergencias-salud.png"; path = "../../../Desktop/botonessoswapp/00-emergencias-salud.png"; sourceTree = "<group>"; };
+		658993181C47C71C008E796C /* 00-emergencias-sos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-emergencias-sos.png"; path = "../../../Desktop/botonessoswapp/00-emergencias-sos.png"; sourceTree = "<group>"; };
+		658993191C47C71C008E796C /* 00-otras-emergencias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-otras-emergencias.png"; path = "../../../Desktop/botonessoswapp/00-otras-emergencias.png"; sourceTree = "<group>"; };
+		6589931A1C47C71C008E796C /* 00-servicios-cercanos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-servicios-cercanos.png"; path = "../../../Desktop/botonessoswapp/00-servicios-cercanos.png"; sourceTree = "<group>"; };
+		6589931B1C47C71C008E796C /* 01-ambulancias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-ambulancias.png"; path = "../../../Desktop/botonessoswapp/01-ambulancias.png"; sourceTree = "<group>"; };
+		6589931C1C47C71C008E796C /* 01-bomberos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-bomberos.png"; path = "../../../Desktop/botonessoswapp/01-bomberos.png"; sourceTree = "<group>"; };
+		6589931D1C47C71C008E796C /* 01-carabineros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-carabineros.png"; path = "../../../Desktop/botonessoswapp/01-carabineros.png"; sourceTree = "<group>"; };
+		6589931E1C47C71C008E796C /* 01-drogas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-drogas.png"; path = "../../../Desktop/botonessoswapp/01-drogas.png"; sourceTree = "<group>"; };
+		6589931F1C47C71C008E796C /* 01-farmacias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-farmacias.png"; path = "../../../Desktop/botonessoswapp/01-farmacias.png"; sourceTree = "<group>"; };
+		658993201C47C71C008E796C /* 01-pdi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-pdi.png"; path = "../../../Desktop/botonessoswapp/01-pdi.png"; sourceTree = "<group>"; };
+		658993211C47C71C008E796C /* 02-aereo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-aereo.png"; path = "../../../Desktop/botonessoswapp/02-aereo.png"; sourceTree = "<group>"; };
+		658993221C47C71C008E796C /* 02-andino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-andino.png"; path = "../../../Desktop/botonessoswapp/02-andino.png"; sourceTree = "<group>"; };
+		658993231C47C71C008E796C /* 02-forestal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-forestal.png"; path = "../../../Desktop/botonessoswapp/02-forestal.png"; sourceTree = "<group>"; };
+		658993241C47C71C008E796C /* 02-maritimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-maritimo.png"; path = "../../../Desktop/botonessoswapp/02-maritimo.png"; sourceTree = "<group>"; };
+		658993251C47C71C008E796C /* 03-abuso-sexual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-abuso-sexual.png"; path = "../../../Desktop/botonessoswapp/03-abuso-sexual.png"; sourceTree = "<group>"; };
+		658993261C47C71C008E796C /* 03-atencion-familia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-atencion-familia.png"; path = "../../../Desktop/botonessoswapp/03-atencion-familia.png"; sourceTree = "<group>"; };
+		658993271C47C71C008E796C /* 03-denuncia-segura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-denuncia-segura.png"; path = "../../../Desktop/botonessoswapp/03-denuncia-segura.png"; sourceTree = "<group>"; };
+		658993281C47C71C008E796C /* 03-entrega-armas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-entrega-armas.png"; path = "../../../Desktop/botonessoswapp/03-entrega-armas.png"; sourceTree = "<group>"; };
+		658993291C47C71C008E796C /* 03-fono-accion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-fono-accion.png"; path = "../../../Desktop/botonessoswapp/03-fono-accion.png"; sourceTree = "<group>"; };
+		6589932A1C47C71C008E796C /* 03-proteccion-animal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-proteccion-animal.png"; path = "../../../Desktop/botonessoswapp/03-proteccion-animal.png"; sourceTree = "<group>"; };
+		6589932B1C47C71C008E796C /* 03-sernac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-sernac.png"; path = "../../../Desktop/botonessoswapp/03-sernac.png"; sourceTree = "<group>"; };
+		6589932C1C47C71C008E796C /* 05-cruz-roja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-cruz-roja.png"; path = "../../../Desktop/botonessoswapp/05-cruz-roja.png"; sourceTree = "<group>"; };
+		6589932D1C47C71C008E796C /* 05-emergencia-chilectra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-emergencia-chilectra.png"; path = "../../../Desktop/botonessoswapp/05-emergencia-chilectra.png"; sourceTree = "<group>"; };
+		6589932E1C47C71C008E796C /* 05-emergencia-lipigas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-emergencia-lipigas.png"; path = "../../../Desktop/botonessoswapp/05-emergencia-lipigas.png"; sourceTree = "<group>"; };
+		6589932F1C47C71C008E796C /* 05-emergencia-metrogas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-emergencia-metrogas.png"; path = "../../../Desktop/botonessoswapp/05-emergencia-metrogas.png"; sourceTree = "<group>"; };
+		658993301C47C71C008E796C /* 05-emergencia-toxicologica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-emergencia-toxicologica.png"; path = "../../../Desktop/botonessoswapp/05-emergencia-toxicologica.png"; sourceTree = "<group>"; };
+		658993311C47C71C008E796C /* 05-quemaduras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-quemaduras.png"; path = "../../../Desktop/botonessoswapp/05-quemaduras.png"; sourceTree = "<group>"; };
+		658993321C47C71C008E796C /* 05-sos-escucha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-sos-escucha.png"; path = "../../../Desktop/botonessoswapp/05-sos-escucha.png"; sourceTree = "<group>"; };
+		658993331C47C71C008E796C /* 07-alcoholicos-anonimos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-alcoholicos-anonimos.png"; path = "../../../Desktop/botonessoswapp/07-alcoholicos-anonimos.png"; sourceTree = "<group>"; };
+		658993341C47C71C008E796C /* 07-fono-drogas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-fono-drogas.png"; path = "../../../Desktop/botonessoswapp/07-fono-drogas.png"; sourceTree = "<group>"; };
+		658993351C47C71C008E796C /* 07-info-drogas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-info-drogas.png"; path = "../../../Desktop/botonessoswapp/07-info-drogas.png"; sourceTree = "<group>"; };
+		658993361C47C71C008E796C /* 07-informacion-policial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-informacion-policial.png"; path = "../../../Desktop/botonessoswapp/07-informacion-policial.png"; sourceTree = "<group>"; };
+		6589935D1C47D157008E796C /* EmergenciasEspecialesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergenciasEspecialesController.swift; sourceTree = "<group>"; };
+		6589935F1C47D163008E796C /* EmergenciasDomesticasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergenciasDomesticasController.swift; sourceTree = "<group>"; };
+		658993611C47D72B008E796C /* DenunciasCiudadanasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DenunciasCiudadanasController.swift; sourceTree = "<group>"; };
+		658993631C47D737008E796C /* ApoyoPersonalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApoyoPersonalController.swift; sourceTree = "<group>"; };
+		658993651C47DB54008E796C /* 07-sida.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-sida.png"; path = "../../../Desktop/botonessoswapp/07-sida.png"; sourceTree = "<group>"; };
+		658993671C47DC33008E796C /* CercanosBomberosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CercanosBomberosController.swift; sourceTree = "<group>"; };
+		658993691C47DC3E008E796C /* CercanosSaludController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CercanosSaludController.swift; sourceTree = "<group>"; };
+		6589936B1C47DC48008E796C /* CercanosFarmaciasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CercanosFarmaciasController.swift; sourceTree = "<group>"; };
+		6589936D1C47E682008E796C /* fondo-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fondo-iphone.png"; path = "../../../Desktop/botonessoswapp/fondo-iphone.png"; sourceTree = "<group>"; };
+		65A6CC6F1C20E8E200CFEEDF /* SOSWApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOSWApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A6CC731C20E8E200CFEEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A6CC741C20E8E200CFEEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A6CC761C20E8E200CFEEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65A6CC791C20E8E200CFEEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65A6CC7B1C20E8E200CFEEDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65A6CC7E1C20E8E200CFEEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		65A6CC841C20E8E200CFEEDF /* SOSWAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOSWAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A6CC891C20E8E200CFEEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A6CC8A1C20E8E200CFEEDF /* SOSWAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSWAppTests.swift; sourceTree = "<group>"; };
+		65A6CC941C20EA9A00CFEEDF /* launchscreen-iphone-4s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchscreen-iphone-4s.png"; path = "../../../launchscreen-iphone-4s.png"; sourceTree = "<group>"; };
+		65A6CC961C20EBE100CFEEDF /* InicioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
+		65A6CC981C20EC0500CFEEDF /* TelefonoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelefonoController.swift; sourceTree = "<group>"; };
+		65A6CC9A1C20EC1700CFEEDF /* MapaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaController.swift; sourceTree = "<group>"; };
+		65A6CCAA1C20F4F300CFEEDF /* EmergenciasSosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergenciasSosController.swift; sourceTree = "<group>"; };
+		65A6CCBC1C20FF5B00CFEEDF /* ComisariaTelefono.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComisariaTelefono.swift; sourceTree = "<group>"; };
+		65A6CCBE1C2102E200CFEEDF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		65A6CCC01C21039300CFEEDF /* CustomAnnot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnot.swift; sourceTree = "<group>"; };
+		65B356A71C52BA4400904709 /* 02-metro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-metro.png"; path = "../../../Desktop/botonessoswapp/02-metro.png"; sourceTree = "<group>"; };
+		65B356A81C52BA4400904709 /* 02-bip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-bip.png"; path = "../../../Desktop/botonessoswapp/02-bip.png"; sourceTree = "<group>"; };
+		65B356AB1C52C17100904709 /* CercanosFarmaciaTurno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CercanosFarmaciaTurno.swift; sourceTree = "<group>"; };
+		65B356AD1C52E94F00904709 /* btn-inicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn-inicio.png"; path = "../../../btn-inicio.png"; sourceTree = "<group>"; };
+		65B568D71CAD5FDB00DEB01C /* pinambu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinambu.png; sourceTree = "<group>"; };
+		65B568D81CAD5FDB00DEB01C /* pinbomber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinbomber.png; sourceTree = "<group>"; };
+		65B568D91CAD5FDB00DEB01C /* pincarab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pincarab.png; sourceTree = "<group>"; };
+		65B568DA1CAD5FDB00DEB01C /* pinfarma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinfarma.png; sourceTree = "<group>"; };
+		65B568DB1CAD5FDB00DEB01C /* pinhospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinhospital.png; sourceTree = "<group>"; };
+		65BEF7051C56A8F000ECBC65 /* PlanCuadranteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanCuadranteController.swift; sourceTree = "<group>"; };
+		65BEF7091C56B21900ECBC65 /* plan-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plan-pin.png"; path = "../../../Google Drive/Salmon Software Ltda/SOSWApp/plan-pin.png"; sourceTree = "<group>"; };
+		65D362A11C57F91C004DA9CF /* SOSWApp-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SOSWApp-2.jpg"; path = "../../../Downloads/SOSWApp-2.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A6CC6C1C20E8E100CFEEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A6CCBF1C2102E200CFEEDF /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A6CC811C20E8E200CFEEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A6CC661C20E8E100CFEEDF = {
+			isa = PBXGroup;
+			children = (
+				65A6CCBE1C2102E200CFEEDF /* MapKit.framework */,
+				65A6CC711C20E8E200CFEEDF /* SOSWApp */,
+				65A6CC871C20E8E200CFEEDF /* SOSWAppTests */,
+				65A6CC701C20E8E200CFEEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65A6CC701C20E8E200CFEEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A6CC6F1C20E8E200CFEEDF /* SOSWApp.app */,
+				65A6CC841C20E8E200CFEEDF /* SOSWAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A6CC711C20E8E200CFEEDF /* SOSWApp */ = {
+			isa = PBXGroup;
+			children = (
+				65A6CC741C20E8E200CFEEDF /* AppDelegate.swift */,
+				65A6CC761C20E8E200CFEEDF /* ViewController.swift */,
+				65A6CC781C20E8E200CFEEDF /* Main.storyboard */,
+				65A6CC7B1C20E8E200CFEEDF /* Images.xcassets */,
+				65A6CC7D1C20E8E200CFEEDF /* LaunchScreen.xib */,
+				65A6CC721C20E8E200CFEEDF /* Supporting Files */,
+				65A6CC961C20EBE100CFEEDF /* InicioController.swift */,
+				65A6CC981C20EC0500CFEEDF /* TelefonoController.swift */,
+				65A6CC9A1C20EC1700CFEEDF /* MapaController.swift */,
+				65A6CCAA1C20F4F300CFEEDF /* EmergenciasSosController.swift */,
+				65A6CCBC1C20FF5B00CFEEDF /* ComisariaTelefono.swift */,
+				65A6CCC01C21039300CFEEDF /* CustomAnnot.swift */,
+				6589935D1C47D157008E796C /* EmergenciasEspecialesController.swift */,
+				6589935F1C47D163008E796C /* EmergenciasDomesticasController.swift */,
+				658993611C47D72B008E796C /* DenunciasCiudadanasController.swift */,
+				658993631C47D737008E796C /* ApoyoPersonalController.swift */,
+				658993671C47DC33008E796C /* CercanosBomberosController.swift */,
+				658993691C47DC3E008E796C /* CercanosSaludController.swift */,
+				6589936B1C47DC48008E796C /* CercanosFarmaciasController.swift */,
+				65B356AB1C52C17100904709 /* CercanosFarmaciaTurno.swift */,
+				65BEF7051C56A8F000ECBC65 /* PlanCuadranteController.swift */,
+				65869F451C612BA9003ABE74 /* InformacionesController.swift */,
+				65869F471C6136EC003ABE74 /* AmbulanciasCercanasController.swift */,
+			);
+			path = SOSWApp;
+			sourceTree = "<group>";
+		};
+		65A6CC721C20E8E200CFEEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65B568D71CAD5FDB00DEB01C /* pinambu.png */,
+				65B568D81CAD5FDB00DEB01C /* pinbomber.png */,
+				65B568D91CAD5FDB00DEB01C /* pincarab.png */,
+				65B568DA1CAD5FDB00DEB01C /* pinfarma.png */,
+				65B568DB1CAD5FDB00DEB01C /* pinhospital.png */,
+				65869F4D1C613C33003ABE74 /* 01-transantiago.png */,
+				65869F4B1C613ABB003ABE74 /* 00-informaciones.png */,
+				65D362A11C57F91C004DA9CF /* SOSWApp-2.jpg */,
+				65BEF7091C56B21900ECBC65 /* plan-pin.png */,
+				65B356AD1C52E94F00904709 /* btn-inicio.png */,
+				65B356A71C52BA4400904709 /* 02-metro.png */,
+				65B356A81C52BA4400904709 /* 02-bip.png */,
+				658993131C47C71C008E796C /* 00-apoyo-personal.png */,
+				658993141C47C71C008E796C /* 00-denuncias-ciudadanas.png */,
+				658993151C47C71C008E796C /* 00-emergencias-domesticas.png */,
+				658993161C47C71C008E796C /* 00-emergencias-especialespng.png */,
+				658993171C47C71C008E796C /* 00-emergencias-salud.png */,
+				658993181C47C71C008E796C /* 00-emergencias-sos.png */,
+				658993191C47C71C008E796C /* 00-otras-emergencias.png */,
+				6589931A1C47C71C008E796C /* 00-servicios-cercanos.png */,
+				6589931B1C47C71C008E796C /* 01-ambulancias.png */,
+				6589931C1C47C71C008E796C /* 01-bomberos.png */,
+				6589931D1C47C71C008E796C /* 01-carabineros.png */,
+				6589931E1C47C71C008E796C /* 01-drogas.png */,
+				6589931F1C47C71C008E796C /* 01-farmacias.png */,
+				658993201C47C71C008E796C /* 01-pdi.png */,
+				658993211C47C71C008E796C /* 02-aereo.png */,
+				658993221C47C71C008E796C /* 02-andino.png */,
+				658993231C47C71C008E796C /* 02-forestal.png */,
+				658993241C47C71C008E796C /* 02-maritimo.png */,
+				658993251C47C71C008E796C /* 03-abuso-sexual.png */,
+				658993261C47C71C008E796C /* 03-atencion-familia.png */,
+				658993271C47C71C008E796C /* 03-denuncia-segura.png */,
+				658993281C47C71C008E796C /* 03-entrega-armas.png */,
+				658993291C47C71C008E796C /* 03-fono-accion.png */,
+				6589932A1C47C71C008E796C /* 03-proteccion-animal.png */,
+				6589932B1C47C71C008E796C /* 03-sernac.png */,
+				6589932C1C47C71C008E796C /* 05-cruz-roja.png */,
+				6589932D1C47C71C008E796C /* 05-emergencia-chilectra.png */,
+				6589932E1C47C71C008E796C /* 05-emergencia-lipigas.png */,
+				6589932F1C47C71C008E796C /* 05-emergencia-metrogas.png */,
+				658993301C47C71C008E796C /* 05-emergencia-toxicologica.png */,
+				658993311C47C71C008E796C /* 05-quemaduras.png */,
+				658993321C47C71C008E796C /* 05-sos-escucha.png */,
+				658993331C47C71C008E796C /* 07-alcoholicos-anonimos.png */,
+				658993341C47C71C008E796C /* 07-fono-drogas.png */,
+				658993351C47C71C008E796C /* 07-info-drogas.png */,
+				658993361C47C71C008E796C /* 07-informacion-policial.png */,
+				6589936D1C47E682008E796C /* fondo-iphone.png */,
+				658993651C47DB54008E796C /* 07-sida.png */,
+				656AF58D1C2189B800FBCB0F /* Icon-40.png */,
+				656AF58F1C2189B800FBCB0F /* Icon-40@3x.png */,
+				656AF58E1C2189B800FBCB0F /* Icon-40@2x.png */,
+				656AF5901C2189B800FBCB0F /* Icon-60@2x.png */,
+				656AF5911C2189B800FBCB0F /* Icon-60@3x.png */,
+				656AF5921C2189B800FBCB0F /* Icon-76.png */,
+				656AF5931C2189B800FBCB0F /* Icon-76@2x.png */,
+				656AF5941C2189B800FBCB0F /* Icon-83.5@2x.png */,
+				656AF5951C2189B800FBCB0F /* Icon-Small.png */,
+				656AF5961C2189B800FBCB0F /* Icon-Small@2x.png */,
+				656AF5971C2189B800FBCB0F /* Icon-Small@3x.png */,
+				656AF58B1C2188AE00FBCB0F /* 600.png */,
+				65A6CC941C20EA9A00CFEEDF /* launchscreen-iphone-4s.png */,
+				65A6CC731C20E8E200CFEEDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A6CC871C20E8E200CFEEDF /* SOSWAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				65A6CC8A1C20E8E200CFEEDF /* SOSWAppTests.swift */,
+				65A6CC881C20E8E200CFEEDF /* Supporting Files */,
+			);
+			path = SOSWAppTests;
+			sourceTree = "<group>";
+		};
+		65A6CC881C20E8E200CFEEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A6CC891C20E8E200CFEEDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A6CC6E1C20E8E100CFEEDF /* SOSWApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A6CC8E1C20E8E200CFEEDF /* Build configuration list for PBXNativeTarget "SOSWApp" */;
+			buildPhases = (
+				65A6CC6B1C20E8E100CFEEDF /* Sources */,
+				65A6CC6C1C20E8E100CFEEDF /* Frameworks */,
+				65A6CC6D1C20E8E100CFEEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOSWApp;
+			productName = SOSWApp;
+			productReference = 65A6CC6F1C20E8E200CFEEDF /* SOSWApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A6CC831C20E8E200CFEEDF /* SOSWAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A6CC911C20E8E200CFEEDF /* Build configuration list for PBXNativeTarget "SOSWAppTests" */;
+			buildPhases = (
+				65A6CC801C20E8E200CFEEDF /* Sources */,
+				65A6CC811C20E8E200CFEEDF /* Frameworks */,
+				65A6CC821C20E8E200CFEEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A6CC861C20E8E200CFEEDF /* PBXTargetDependency */,
+			);
+			name = SOSWAppTests;
+			productName = SOSWAppTests;
+			productReference = 65A6CC841C20E8E200CFEEDF /* SOSWAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A6CC671C20E8E100CFEEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Salmon Software Chile";
+				TargetAttributes = {
+					65A6CC6E1C20E8E100CFEEDF = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 2K999TJQ26;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					65A6CC831C20E8E200CFEEDF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 65A6CC6E1C20E8E100CFEEDF;
+					};
+				};
+			};
+			buildConfigurationList = 65A6CC6A1C20E8E100CFEEDF /* Build configuration list for PBXProject "SOSWApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A6CC661C20E8E100CFEEDF;
+			productRefGroup = 65A6CC701C20E8E200CFEEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A6CC6E1C20E8E100CFEEDF /* SOSWApp */,
+				65A6CC831C20E8E200CFEEDF /* SOSWAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A6CC6D1C20E8E100CFEEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6589935B1C47C71C008E796C /* 07-informacion-policial.png in Resources */,
+				656AF59D1C2189B800FBCB0F /* Icon-76.png in Resources */,
+				65B568DF1CAD5FDB00DEB01C /* pinfarma.png in Resources */,
+				656AF59C1C2189B800FBCB0F /* Icon-60@3x.png in Resources */,
+				65B356A91C52BA4400904709 /* 02-metro.png in Resources */,
+				658993531C47C71C008E796C /* 05-emergencia-lipigas.png in Resources */,
+				6589934D1C47C71C008E796C /* 03-entrega-armas.png in Resources */,
+				656AF5A11C2189B800FBCB0F /* Icon-Small@2x.png in Resources */,
+				6589933A1C47C71C008E796C /* 00-emergencias-domesticas.png in Resources */,
+				65D362A21C57F91C004DA9CF /* SOSWApp-2.jpg in Resources */,
+				65A6CC951C20EA9A00CFEEDF /* launchscreen-iphone-4s.png in Resources */,
+				65A6CC7A1C20E8E200CFEEDF /* Main.storyboard in Resources */,
+				65B356AE1C52E94F00904709 /* btn-inicio.png in Resources */,
+				656AF59F1C2189B800FBCB0F /* Icon-83.5@2x.png in Resources */,
+				65A6CC7F1C20E8E200CFEEDF /* LaunchScreen.xib in Resources */,
+				656AF5A21C2189B800FBCB0F /* Icon-Small@3x.png in Resources */,
+				658993491C47C71C008E796C /* 02-maritimo.png in Resources */,
+				658993421C47C71C008E796C /* 01-carabineros.png in Resources */,
+				6589933B1C47C71C008E796C /* 00-emergencias-especialespng.png in Resources */,
+				658993481C47C71C008E796C /* 02-forestal.png in Resources */,
+				656AF59E1C2189B800FBCB0F /* Icon-76@2x.png in Resources */,
+				658993521C47C71C008E796C /* 05-emergencia-chilectra.png in Resources */,
+				65869F4E1C613C33003ABE74 /* 01-transantiago.png in Resources */,
+				658993391C47C71C008E796C /* 00-denuncias-ciudadanas.png in Resources */,
+				6589934E1C47C71C008E796C /* 03-fono-accion.png in Resources */,
+				65A6CC7C1C20E8E200CFEEDF /* Images.xcassets in Resources */,
+				6589934B1C47C71C008E796C /* 03-atencion-familia.png in Resources */,
+				65B568DD1CAD5FDB00DEB01C /* pinbomber.png in Resources */,
+				658993401C47C71C008E796C /* 01-ambulancias.png in Resources */,
+				6589934C1C47C71C008E796C /* 03-denuncia-segura.png in Resources */,
+				658993461C47C71C008E796C /* 02-aereo.png in Resources */,
+				658993381C47C71C008E796C /* 00-apoyo-personal.png in Resources */,
+				658993551C47C71C008E796C /* 05-emergencia-toxicologica.png in Resources */,
+				658993411C47C71C008E796C /* 01-bomberos.png in Resources */,
+				658993561C47C71C008E796C /* 05-quemaduras.png in Resources */,
+				658993661C47DB54008E796C /* 07-sida.png in Resources */,
+				656AF5991C2189B800FBCB0F /* Icon-40@2x.png in Resources */,
+				6589934A1C47C71C008E796C /* 03-abuso-sexual.png in Resources */,
+				6589933C1C47C71C008E796C /* 00-emergencias-salud.png in Resources */,
+				656AF58C1C2188AE00FBCB0F /* 600.png in Resources */,
+				6589933D1C47C71C008E796C /* 00-emergencias-sos.png in Resources */,
+				658993581C47C71C008E796C /* 07-alcoholicos-anonimos.png in Resources */,
+				658993541C47C71C008E796C /* 05-emergencia-metrogas.png in Resources */,
+				656AF5A01C2189B800FBCB0F /* Icon-Small.png in Resources */,
+				65BEF70F1C56B21900ECBC65 /* plan-pin.png in Resources */,
+				6589933F1C47C71C008E796C /* 00-servicios-cercanos.png in Resources */,
+				6589935A1C47C71C008E796C /* 07-info-drogas.png in Resources */,
+				658993511C47C71C008E796C /* 05-cruz-roja.png in Resources */,
+				6589934F1C47C71C008E796C /* 03-proteccion-animal.png in Resources */,
+				65B568E01CAD5FDB00DEB01C /* pinhospital.png in Resources */,
+				656AF5981C2189B800FBCB0F /* Icon-40.png in Resources */,
+				656AF59A1C2189B800FBCB0F /* Icon-40@3x.png in Resources */,
+				658993451C47C71C008E796C /* 01-pdi.png in Resources */,
+				65B356AA1C52BA4400904709 /* 02-bip.png in Resources */,
+				658993441C47C71C008E796C /* 01-farmacias.png in Resources */,
+				6589936E1C47E682008E796C /* fondo-iphone.png in Resources */,
+				65869F4C1C613ABB003ABE74 /* 00-informaciones.png in Resources */,
+				658993591C47C71C008E796C /* 07-fono-drogas.png in Resources */,
+				6589933E1C47C71C008E796C /* 00-otras-emergencias.png in Resources */,
+				658993471C47C71C008E796C /* 02-andino.png in Resources */,
+				658993431C47C71C008E796C /* 01-drogas.png in Resources */,
+				65B568DE1CAD5FDB00DEB01C /* pincarab.png in Resources */,
+				658993571C47C71C008E796C /* 05-sos-escucha.png in Resources */,
+				656AF59B1C2189B800FBCB0F /* Icon-60@2x.png in Resources */,
+				65B568DC1CAD5FDB00DEB01C /* pinambu.png in Resources */,
+				658993501C47C71C008E796C /* 03-sernac.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A6CC821C20E8E200CFEEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A6CC6B1C20E8E100CFEEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B356AC1C52C17100904709 /* CercanosFarmaciaTurno.swift in Sources */,
+				658993601C47D163008E796C /* EmergenciasDomesticasController.swift in Sources */,
+				65A6CCBD1C20FF5B00CFEEDF /* ComisariaTelefono.swift in Sources */,
+				65A6CC971C20EBE100CFEEDF /* InicioController.swift in Sources */,
+				6589935E1C47D157008E796C /* EmergenciasEspecialesController.swift in Sources */,
+				65A6CC771C20E8E200CFEEDF /* ViewController.swift in Sources */,
+				65A6CC9B1C20EC1700CFEEDF /* MapaController.swift in Sources */,
+				65869F481C6136EC003ABE74 /* AmbulanciasCercanasController.swift in Sources */,
+				65A6CCAB1C20F4F300CFEEDF /* EmergenciasSosController.swift in Sources */,
+				658993681C47DC33008E796C /* CercanosBomberosController.swift in Sources */,
+				658993621C47D72B008E796C /* DenunciasCiudadanasController.swift in Sources */,
+				6589936A1C47DC3E008E796C /* CercanosSaludController.swift in Sources */,
+				65BEF7061C56A8F000ECBC65 /* PlanCuadranteController.swift in Sources */,
+				6589936C1C47DC48008E796C /* CercanosFarmaciasController.swift in Sources */,
+				658993641C47D737008E796C /* ApoyoPersonalController.swift in Sources */,
+				65A6CC751C20E8E200CFEEDF /* AppDelegate.swift in Sources */,
+				65A6CC991C20EC0500CFEEDF /* TelefonoController.swift in Sources */,
+				65A6CCC11C21039300CFEEDF /* CustomAnnot.swift in Sources */,
+				65869F461C612BA9003ABE74 /* InformacionesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A6CC801C20E8E200CFEEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A6CC8B1C20E8E200CFEEDF /* SOSWAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65A6CC861C20E8E200CFEEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A6CC6E1C20E8E100CFEEDF /* SOSWApp */;
+			targetProxy = 65A6CC851C20E8E200CFEEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65A6CC781C20E8E200CFEEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A6CC791C20E8E200CFEEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65A6CC7D1C20E8E200CFEEDF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A6CC7E1C20E8E200CFEEDF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A6CC8C1C20E8E200CFEEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65A6CC8D1C20E8E200CFEEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A6CC8F1C20E8E200CFEEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SOSWApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		65A6CC901C20E8E200CFEEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SOSWApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		65A6CC921C20E8E200CFEEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SOSWAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOSWApp.app/SOSWApp";
+			};
+			name = Debug;
+		};
+		65A6CC931C20E8E200CFEEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SOSWAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOSWApp.app/SOSWApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A6CC6A1C20E8E100CFEEDF /* Build configuration list for PBXProject "SOSWApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A6CC8C1C20E8E200CFEEDF /* Debug */,
+				65A6CC8D1C20E8E200CFEEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A6CC8E1C20E8E200CFEEDF /* Build configuration list for PBXNativeTarget "SOSWApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A6CC8F1C20E8E200CFEEDF /* Debug */,
+				65A6CC901C20E8E200CFEEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A6CC911C20E8E200CFEEDF /* Build configuration list for PBXNativeTarget "SOSWAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A6CC921C20E8E200CFEEDF /* Debug */,
+				65A6CC931C20E8E200CFEEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A6CC671C20E8E100CFEEDF /* Project object */;
+}
